@@ -47,21 +47,22 @@ ATR_average
 ### System Design (WIP)
 
 # Tier 1
-[ticker csv file]
-|||||||||||||||||
-[Initial filter for portfolio requirements]
-|||||||||||||||||
-[Download price data for filtered ticker list in 1 call, slice into individual dfs]
-|||||||||||||||||
-[Call indicator functions, append to individual ticker dfs]
-|||||||||||||||||
-[Bayesian hyperparameter optimization]
-|||||||||||||||||
-[Ticker indicator evaluation and sorting into Port A and Port B]
-|||||||||||||||||
-[Evaluation of individual ticker weightings and sector weightings]
+[ticker csv file] -->
+
+[Initial filter for portfolio requirements] -->
+
+[Download price data for filtered ticker list in 1 call, slice into individual dfs] -->
+
+[Call indicator functions, append to individual ticker dfs] --> 
+
+[Bayesian hyperparameter optimization] -->
+
+[Ticker indicator evaluation and sorting into Port A and Port B] -->
+
+[Portfolio individual ticker weightings and sector weightings refractored]
 
 # Tier 2
+
 # Tier 3 
 
 
