@@ -44,17 +44,24 @@ ATR_average
 
 
 
-# System Design (WIP)
+### System Design (WIP)
 
-Initial filter for portfolio requirements
-Technical indicators (variable parameters)
-Portfolio [A] indicator calls - assigning parameters for TIs
-Portfolio [B] indicator calls - assigning parameters for TIs
-Ranking algorithm? - reasoning 
-Final portfolio implementation. 
+# Tier 1
+[ticker csv file]
+|||||||||||||||||
+[Initial filter for portfolio requirements]
+|||||||||||||||||
+[Download price data for filtered ticker list in 1 call, slice into individual dfs]
+|||||||||||||||||
+[Call indicator functions, append to individual ticker dfs]
+|||||||||||||||||
+[Bayesian hyperparameter optimization]
+|||||||||||||||||
+[Ticker indicator evaluation and sorting into Port A and Port B]
+|||||||||||||||||
+[Evaluation of individual ticker weightings and sector weightings]
 
-Task distribution
-Leon: ADX STD of past price data  | Market cap
-Eithan: Sectors (40% max per sector), correlation between stocks for the safe portfolio (check for low correlation), ATR 
-Sushant: Beta  ROE EPS
-Nikisha: Initial portfolio rules filter 
+# Tier 2
+# Tier 3 
+
+
